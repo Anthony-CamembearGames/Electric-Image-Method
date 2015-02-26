@@ -14,6 +14,7 @@ Future possibilities will include :
 I am using two references :
 
 [1] Introduction to Electrodynamics (3rd Edition) (1998) by David J. Griffiths
+
 [2] Electromagnetic Wave Theory (1985) by James R Wait  
 
 
