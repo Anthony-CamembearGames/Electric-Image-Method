@@ -2,16 +2,18 @@
 
 This python program calculates the electrical capacitance matrix of a set of conductive spheres. See http://en.wikipedia.org/wiki/Capacitance for more on the theory.
 
-For the moment it is only capable of calculating the capacitance matrix in a homogeneous medium with the ground at infinity.
+### Updates
 
-Future possibilities will include :
+12/03/2015 : Updates to the program to include the possibility to calculate the Capacitance Matrix over a conductive plane + Readme updates
 
-1. Capacitance Matrix over a conductive surface
-2. Capacitance Matrix over a dielectric surface
-3. Capacitance Matrix over a 2 layer dielectric surface with complex permitivities
-4. Capacitance Matrix over a multi-layered dielectric surface with complex permitivities
+Roadmap : 
 
-I am using two references :
+* Capacitance Matrix over a conductive surface [done]
+* Capacitance Matrix over a dielectric surface [work in progress]
+* Capacitance Matrix over a 2 layer dielectric surface with complex permitivities [work in progress]
+* Capacitance Matrix over a multi-layered dielectric surface with complex permitivities [standby]
+
+I am using two references for this script :
 
 [1] Introduction to Electrodynamics (3rd Edition) (1998) by David J. Griffiths
 
