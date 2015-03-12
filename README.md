@@ -22,7 +22,29 @@ y=5
 z=3
 radius = 0.1
     
-electrode1 = sphere_propreties(x,y,z,radius)
+electrode = sphere_propreties(x,y,z,radius)
+```
+Once you created a certain number of electrodes you can pass them to the capacity_matrix function, the ouput will be the capacitance matrix.
+
+```python
+import image_theory
+
+... # Here we create the electrodes
+
+capacitance_matrix = capacity_matrix(electrode1, electrode2, electrode3)
+```
+If you want to calculate the capacitance matrix over or under a plane you can use the capacity_matrix_over_conductive_interface function. But you must first create a condcutive plane with only on caraterisctic : the z value
+
+```python
+import image_theory
+
+z_plane = 2
+
+plane  = PlaneProprieties(z_plane)
+
+... # Here we create the electrodes
+
+capacitance_matrix = capacity_matrix_over_conductive_interface(plane, electrode1, electrode2, electrode3)
 ```
 
 ### Roadmap : 
