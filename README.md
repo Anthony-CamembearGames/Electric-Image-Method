@@ -33,7 +33,7 @@ import image_theory
 
 capacitance_matrix = capacity_matrix(electrode1, electrode2, electrode3)
 ```
-If you want to calculate the capacitance matrix over or under a plane you can use the capacity_matrix_over_conductive_interface function. But you must first create a condcutive plane with only on caraterisctic : the z value
+If you want to calculate the capacitance matrix over or under a plane you can use the capacity_matrix_over_conductive_interface function, but you must first create a condcutive plane with only on caracterisctic : the z value.
 
 ```python
 import image_theory
@@ -46,6 +46,8 @@ plane  = PlaneProprieties(z_plane)
 
 capacitance_matrix = capacity_matrix_over_conductive_interface(plane, electrode1, electrode2, electrode3)
 ```
+Note that in this case you have to cheak for two things, first that all the electrodes are on the same side of the plane, then that no electrodes intersect each other or the plane
+
 
 ### Roadmap : 
 
@@ -53,6 +55,8 @@ capacitance_matrix = capacity_matrix_over_conductive_interface(plane, electrode1
 * Capacitance Matrix over a dielectric surface [work in progress]
 * Capacitance Matrix over a 2 layer dielectric surface with complex permitivities [work in progress]
 * Capacitance Matrix over a multi-layered dielectric surface with complex permitivities [standby]
+* Graphical representation of the electrode system [standby]
+* Custom error messages and geoetry verification [stanby]
 
 ### References :
 
