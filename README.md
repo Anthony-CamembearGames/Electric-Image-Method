@@ -12,16 +12,18 @@ The first step is to create the set of electrodes, to do this you must give them
 
 example :
 
-    import image_theory
+```python
+import image_theory
   
-    # All distances are in m
+# All distances are in m
   
-    x=5
-    y=5
-    z=3
-    radius = 0.1
+x=5
+y=5
+z=3
+radius = 0.1
     
-    electrode1 = sphere_propreties(x,y,z,radius)
+electrode1 = sphere_propreties(x,y,z,radius)
+```
 
 ### Roadmap : 
 
