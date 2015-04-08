@@ -56,7 +56,7 @@ Note that in this case you have to cheak for two things, first that all the elec
 * Capacitance Matrix over a 2 layer dielectric surface with complex permitivities [work in progress]
 * Capacitance Matrix over a multi-layered dielectric surface with complex permitivities [standby]
 * Graphical representation of the electrode system [standby]
-* Custom error messages and geoetry verification [stanby]
+* Custom error messages and geometry verification [standby]
 
 ### References :
 
