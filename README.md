@@ -1,6 +1,6 @@
 # Electric-Image-Method
 
-This python program calculates the electrical capacitance matrix of a set of conductive spheres. See http://en.wikipedia.org/wiki/Capacitance for more on the theory.
+This python script calculates the electrical capacitance matrix of a set of conductive spheres. See http://en.wikipedia.org/wiki/Capacitance for more on the theory.
 
 ### Updates
 
@@ -8,7 +8,7 @@ This python program calculates the electrical capacitance matrix of a set of con
 
 ### How to use
 
-The first step is to create the set of electrodes, to do this you must give them 4 caracteristics, the x,y,z coordinates and the radius of the eletrodes.
+The first step is to create the set of electrodes, to do this you must give them 4 caracteristics, the x,y,z coordinates and the radius.
 
 example :
 
