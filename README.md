@@ -33,7 +33,7 @@ import image_theory
 
 capacitance_matrix = capacity_matrix(electrode1, electrode2, electrode3)
 ```
-If you want to calculate the capacitance matrix over or under a plane you can use the capacity_matrix_over_conductive_interface function, but you must first create a condcutive plane with only on caracterisctic : the z value.
+If you want to calculate the capacitance matrix over or under a plane you can use the capacity_matrix_over_conductive_interface function, but you must first create a condcutive plane with only one caracterisctic : the z value.
 
 ```python
 import image_theory
